@@ -29,7 +29,7 @@ function Home() {
   }
 
   function deleteTodo(id){
-    setTodos([...todos].filter(t => t.id !== id))
+    setTodos(todos.filter(t => t.id !== id))
   }
 
 
@@ -41,7 +41,7 @@ function Home() {
       isCompleted:false
     }
 
-    setTodos([...data,newTask])
+    setTodos([...todos,newTask])
   }
 
   return (
