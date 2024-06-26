@@ -22,3 +22,12 @@
 .home__title-purple{
     color: #5E60CE;
 }
+
+.no-tasks{
+    color:#808080;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 140%;
+}

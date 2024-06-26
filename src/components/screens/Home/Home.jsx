@@ -3,6 +3,7 @@ import { FcTodoList } from "react-icons/fc";
 import Item from "./UI/Item/Item";
 import "./Home.css";
 import ItemCreate from "./UI/ItemCreate/ItemCreate";
+import clipboard from "./Clipboard.svg"
 
 function Home() {
   let data = [
@@ -51,9 +52,16 @@ function Home() {
         <span className="home__title-purple">do</span>
       </h1>
       <ItemCreate createTask={createTask}/>
-      {todos.map((todo) => (
-        <Item todo={todo} key={todo.id} changeTodo={changeTodo} deleteTodo={deleteTodo} />
-      ))}
+      {todos.length > 0 ? (
+        todos.map((todo) => (
+          <Item todo={todo} key={todo.id} changeTodo={changeTodo} deleteTodo={deleteTodo} />
+        ))
+      ) : (
+        <div className="no-tasks">
+          <img src={clipboard} alt="No tasks" />
+          <p>No tasks</p>
+        </div>
+      )}
     </div>
   );
 }
