@@ -1,0 +1,24 @@
+
+.container{
+    max-width: 736px;
+    margin: 0 auto;
+}
+
+.home__title{
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    
+}
+
+.home__title-blue{
+    color: #4EA8DE;
+    padding-left: 12px;
+}
+
+.home__title-purple{
+    color: #5E60CE;
+}

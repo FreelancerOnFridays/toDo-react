@@ -1,0 +1,15 @@
+.trash__button{
+    background:#262626;
+    border: none;
+    margin-right: 16px;
+}
+
+.trash__icon{
+    color: #808080;
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+}
+
+.trash__icon:hover{
+    color: #E25858;
+}

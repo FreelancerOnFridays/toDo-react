@@ -1,0 +1,20 @@
+.circle{
+    border: 2px solid #4EA8DE;
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+    margin-left: 16px;
+    transition: border-color 0.2s ease-in-out;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle:hover{
+    border-color: #1E6F9F;
+}
+
+.check{
+    color: #F2F2F2;
+}
