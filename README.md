@@ -1,1 +1,1 @@
-Project deploy: https://Vladi1k.github.io/toDo-react
+Project deploy: https://freelanceronfridays.github.io/toDo-react/
